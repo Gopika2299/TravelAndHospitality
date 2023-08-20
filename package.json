@@ -2,10 +2,13 @@
   "name": "nodejs-express",
   "version": "1.0.0",
   "description": "Node.js Rest Apis with Express",
-  "main": "server.js",
+  "main": "app.js",
   "outputCapture": "std",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www",
+    "prod": "node ./bin/www",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "keywords": [
     "nodejs",
