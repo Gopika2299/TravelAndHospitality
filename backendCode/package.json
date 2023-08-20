@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-express-sequelize-mysql",
+  "name": "nodejs-express",
   "version": "1.0.0",
-  "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
+  "description": "Node.js Rest Apis with Express",
   "main": "server.js",
   "outputCapture": "std",
   "scripts": {
@@ -15,7 +15,7 @@
     "sequelize",
     "mysql"
   ],
-  "author": "bezkoder",
+  "author": "Gopika",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
