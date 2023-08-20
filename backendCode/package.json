@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-express-sequelize-mysql",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
+  "main": "server.js",
+  "outputCapture": "std",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "generate-otp": "^1.0.6",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "mysql2": "^2.0.2",
+    "nodemailer": "^6.9.4",
+    "sequelize": "^6.21.0",
+    "winston": "^3.10.0"
+  }
+}
