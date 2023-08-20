@@ -1,9 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const travelerRoutes = require('../backendCode/app/routers/travellerRoutes');
-const propertyOwnerRoutes = require('../backendCode/app/routers/propertyOwnerRoutes');
-const adminRoutes = require('../backendCode/app/routers/adminRouter');
+const travelerRoutes = require('./routers/travellerRoutes');
+const propertyOwnerRoutes = require('./routers/propertyOwnerRoutes');
+const adminRoutes = require('./routers/adminRouter');
 
 const app = express();
 
