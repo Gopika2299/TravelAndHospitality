@@ -15,6 +15,7 @@ exports.createCatalog = async (req, res) => {
 
       res.status(201).json({ message: 'Catalog created successfully' });
     } catch (error) {
+      console.log('error',error)
       res.status(500).json({ error: 'An error occurred' });
     }
   }
